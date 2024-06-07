@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.header-content {
+  display: flex;
+}
+li {
+  list-style: none;
+  padding: 1em;
+  font-size: medium;
+}
+
+.button-content {
+  margin-top: 0.2em;
+  background-color:#0066cc;
+  width: 6em;
+  height: 3em;
+  border-radius: 0.5em;
+  font-size: 1em;
+  color: white;
+  padding: 1em;
+  cursor: pointer;
+}
+.logo {
+  margin-top: 1em;
+}
