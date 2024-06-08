@@ -1,0 +1,15 @@
+.main-text h1 {
+    color: #314259;
+    font-weight: 700;
+    text-align: center;
+    font-size: 3.5em;
+    margin-bottom: 2.5%;
+    margin-top: 1.5em;
+}
+.main-subtext h5 {
+    color: #9092A3;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1em;
+    font-weight: 100;
+}
