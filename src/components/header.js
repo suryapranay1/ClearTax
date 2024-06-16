@@ -5,7 +5,7 @@ const Header = () => {
     <div className='header'>
 
    
-    <div className='logo'>
+    <div className='companylogo'>
         <img src='img\cleartaxlogo.svg' alt='cleartax'></img>
 
     </div>
