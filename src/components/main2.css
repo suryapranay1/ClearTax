@@ -13,3 +13,30 @@
     font-size: 1em;
     font-weight: 100;
 }
+.partners{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+h5{
+    color: #9092A3;
+}
+
+.text{
+    color: #314259;
+    margin-left: 23em;
+    margin-bottom: 2em;
+    font-size: x-large;
+}
+
+.main{
+    margin-bottom: 5em;
+}
+
+.main-subtext h5{
+    margin-bottom: 4em;
+}
+.main-content{
+    margin-bottom: 2em;
+}
