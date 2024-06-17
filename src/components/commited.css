@@ -1,0 +1,22 @@
+.commited{
+    display: flex;
+}
+.commitedText h2{
+    font-size: 56px;
+    font-weight: 700;
+    color: #314259;
+    margin-left: 3em;
+}
+.commitedParagraph{
+    color:#9092A3;
+    font-size: 19px;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 9em;
+}
+.commitedLogo img{
+    margin-left: 15em;
+}
+
+
+    

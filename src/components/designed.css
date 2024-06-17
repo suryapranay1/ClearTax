@@ -1,0 +1,27 @@
+.designed{
+    display: flex;
+    justify-content: center;
+}
+.designedflex{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.video1{
+    margin-left: 11em;
+}
+.designedSubtext{
+}
+
+.css-kadxry-MuiTypography-root {
+    margin: 0;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    color: #9092A3;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 6em;
+}
