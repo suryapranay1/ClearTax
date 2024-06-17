@@ -8,7 +8,8 @@ import Looking from './components/looking'
 import Designed from './components/designed'
 import Commited from './components/commited'
 import Ready from './components/Ready'
-
+import SimpleCarousel from './components/courosal'
+import './App.css'
 
 const App = () => {
   return (
@@ -21,7 +22,12 @@ const App = () => {
     <Designed/>
     <Commited/>
     <Ready/>
+    <div className='corosal'>
+ <SimpleCarousel/>
+ </div>
  <Footer/>
+ 
+ 
  
     </>
    
