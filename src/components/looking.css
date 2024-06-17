@@ -1,0 +1,26 @@
+.lookingText{
+    margin-left: 35em;
+    margin-bottom: 3em;
+    color: #314259;
+}
+.lookingParagarph{
+    color: #9092A3;
+}
+h4{
+    color: #314259;
+}
+p{
+    color: #9092A3;
+}
+.sec{
+    display: flex;
+    justify-content:center;
+}
+.lookingsec1{
+    width: 50%;
+    margin-left: 15em;
+}
+.lookingsec2{
+width:50%;
+margin-left: 10em;
+}
