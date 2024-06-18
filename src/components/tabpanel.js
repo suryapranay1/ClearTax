@@ -8,6 +8,7 @@ import Stack from "@mui/joy/Stack";
 import { styled } from "@mui/joy/styles";
 import "./tabpanel.css";
 import { Typography } from "@mui/material";
+
 const CustomTabList = styled(TabList)({
   "& .MuiTabs-indicator": {
     display: "none", // Hide the indicator
@@ -23,7 +24,7 @@ const CustomTab = styled(Tab)({
 
 export default function TabsIconWithText() {
   return (
-    <Stack spacing={2}>
+    <Stack spacing={2} sx={{ width: '80%', ml: 'auto', mr: 'auto', height: '45em' }}>
       <Tabs aria-label="Icon tabs" defaultValue={0}>
         <CustomTabList tabFlex="auto">
           <CustomTab orientation="vertical">
@@ -64,7 +65,7 @@ export default function TabsIconWithText() {
           </CustomTab>
         </CustomTabList>
         <TabPanel value={0}>
-          <div className="panelSection1">
+          <div className="panelSection panelSection1">
             <div className="clearInvoice">
               <div className="cleargst">
                 <Typography
@@ -75,7 +76,7 @@ export default function TabsIconWithText() {
                 <Typography
                   sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px" }}
                 >
-                  Fast, dependable and <br></br>afforable solution
+                  Fast, dependable and <br></br>affordable solution
                 </Typography>
               </div>
             </div>
@@ -93,12 +94,12 @@ export default function TabsIconWithText() {
               </Typography>
             </div>
           </div>
-          <div className="panelSection2">
+          <div className="panelSection panelSection2">
             <div className="Cleare-Invoicing">
               <Typography
                 sx={{ color: "#314259", fontWeight: 700, fontSize: "24px" }}
               >
-                CLearE-Waybill
+                ClearE-Waybill
               </Typography>
               <Typography
                 sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px" }}
@@ -121,7 +122,7 @@ export default function TabsIconWithText() {
           </div>
         </TabPanel>
         <TabPanel value={1}>
-          <div className="panelSection3">
+          <div className="panelSection panelSection3">
             <div className="cleargst">
               <Typography
                 sx={{ color: "#314259", fontWeight: 700, fontSize: "24px" }}
@@ -147,7 +148,7 @@ export default function TabsIconWithText() {
               </Typography>
             </div>
           </div>
-          <div className="panelSection4">
+          <div className="panelSection panelSection4">
             <div className="Clearetds">
               <Typography
                 sx={{ color: "#314259", fontWeight: 700, fontSize: "24px" }}
@@ -175,7 +176,7 @@ export default function TabsIconWithText() {
           </div>
         </TabPanel>
         <TabPanel value={2}>
-          <div className="panelSection5">
+          <div className="panelSection panelSection5">
             <div className="clearGst">
               <Typography
                 sx={{ color: "#314259", fontWeight: 700, fontSize: "24px" }}
@@ -203,7 +204,7 @@ export default function TabsIconWithText() {
           </div>
         </TabPanel>
         <TabPanel value={3}>
-          <div className="panelSection6">
+          <div className="panelSection panelSection6">
             <div className="FileITR">
               <Typography
                 sx={{ color: "#314259", fontWeight: 700, fontSize: "24px" }}
@@ -229,7 +230,7 @@ export default function TabsIconWithText() {
               </Typography>
             </div>
           </div>
-          <div className="panelSection7">
+          <div className="panelSection panelSection7">
             <div className="ClearServices">
               <Typography
                 sx={{ color: "#314259", fontWeight: 700, fontSize: "24px" }}

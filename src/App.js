@@ -12,7 +12,7 @@ import SimpleCarousel from './components/courosal'
 import './App.css'
 import SimpleCarousel1 from './components/carousal1'
 import TabsIconWithText from './components/tabpanel'
-
+import Plugandplay from './components/pugandplay'
 const App = () => {
   return (
     <>
@@ -33,6 +33,9 @@ const App = () => {
     
     <div className='looking'>
     <Looking/>
+    </div>
+    <div className='Plugandplay'>
+    <Plugandplay/>
     </div>
 
     <div className='tabpanel'>

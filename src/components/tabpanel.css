@@ -1,79 +1,48 @@
-.panelSection1{
+.panelSection {
     display: flex;
-}
-.panelSection2{
-    display: flex;
-}
-
-.panelSection3{
-    display: flex;
-}
-.panelSection4{
-    display: flex;
-}
-.panelSection5{
-    display: flex;
-}
-
-.panelSection6{
-    display: flex;
-}
-.panelSection7{
-    display: flex;
-}
-.clearInvoice{
-margin-bottom: 7em;
-}
-
-.clearGst{
-    margin-left: 10em;
-    margin-bottom: 7em;
-}
-
-.Cleare-Invoicing{
-    margin-left: 20em;
-}
-
-
-.ClearMaxITC{
-    margin-left: 13em;
-   
-}
-.cleargst{
-    margin-left: 20em;
-    margin-bottom: 7em;
-}
-
-.cleartaxxloud{
-    margin-left: 17em;
-    margin-bottom: 7em;
-}
-
-.Clearetds{
-    margin-left: 20em;
-}
-
-.Clearproapp{
-    margin-left: 19em;
-}
-
-.clearone{
-    margin-left: 19em;
-}
-.FileITR{
-    margin-left: 20em;
-    margin-bottom: 7em;
-}
-
-.clearInvest{
-    margin-left: 17em;
-    margin-bottom: 7em;
-}
-
-.ClearServices{
-    margin-left: 20em;
-}
-
-.Black{
-    margin-left: 13em;
-}
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: space-around;
+  }
+  
+  .clearInvoice,
+  .clearGst,
+  .Cleare-Invoicing,
+  .ClearMaxITC,
+  .cleargst,
+  .cleartaxxloud,
+  .Clearetds,
+  .Clearproapp,
+  .clearone,
+  .FileITR,
+  .clearInvest,
+  .ClearServices,
+  .Black {
+    flex: 1 1 45%; /* Adjust based on screen size */
+    margin-bottom: 2em;
+  }
+  
+  @media (max-width: 768px) {
+    .panelSection {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .clearInvoice,
+    .clearGst,
+    .Cleare-Invoicing,
+    .ClearMaxITC,
+    .cleargst,
+    .cleartaxxloud,
+    .Clearetds,
+    .Clearproapp,
+    .clearone,
+    .FileITR,
+    .clearInvest,
+    .ClearServices,
+    .Black {
+      flex: 1 1 100%;
+      margin-left: 0;
+    }
+  }
+  

@@ -2,3 +2,16 @@
     display: flex;
     justify-content: space-evenly;
 }
+.mainallsection{
+    display: flex;
+}
+
+.main5section1{
+    margin-left: 13em;
+}
+.main5section2{
+    margin-left: 2em;
+}
+.main5section3{
+    margin-left: 2em;
+}
