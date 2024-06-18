@@ -88,7 +88,7 @@ function SimpleCarousel1() {
           <Card sx={{ width: 600, height: 450, margin: "1em" }}>
             <CardContent>
               <Typography sx={{color:'#314259',fontSize:'2em',fontWeight:'700',mb:'1em'}}>
-                <span style={{color:'blue'}}> 600,000+ </span>
+                <span style={{color:'#1678FB'}}> 600,000+ </span>
                 business trust our SMB offerings
               </Typography>
               <Typography sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px",mb:'6em' }}>
@@ -106,7 +106,7 @@ function SimpleCarousel1() {
           <CardContent>
               <Typography sx={{color:'#314259',fontSize:'2em',fontWeight:'700',mb:'1em'}}>
             More than  
-                <span style={{color:'blue'}}> 60,000+ </span>
+                <span style={{color:'#1678FB'}}> 60,000+ </span>
                 tax experts use our platform
                 
               </Typography>
@@ -125,7 +125,7 @@ function SimpleCarousel1() {
           <CardContent>
               <Typography sx={{color:'#314259',fontSize:'2em',fontWeight:'700',mb:'1em'}}>
                 over
-                <span style={{color:'blue'}}> 1200+ </span>
+                <span style={{color:'#1678FB'}}> 1200+ </span>
                 enterprises uses our compiliance stack
                 
               </Typography>
@@ -144,7 +144,7 @@ function SimpleCarousel1() {
           <CardContent>
               <Typography sx={{color:'#314259',fontSize:'2em',fontWeight:'700',mb:'1em'}}>
                 over 
-                <span style={{color:'blue'}}> 5million+ </span>
+                <span style={{color:'#1678FB'}}> 5million+ </span>
                 tax payers have filed with us 
               </Typography>
               <Typography sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px",mb:'6em' }}>
