@@ -2,10 +2,11 @@
     color: #314259;
     font-weight: 700;
     text-align: center;
-    font-size: 3.5em;
+    font-size: 3em;
     margin-bottom: 2.5%;
     margin-top: 1.5em;
 }
+
 .main-subtext h5 {
     color: #9092A3;
     text-align: center;
@@ -13,29 +14,86 @@
     font-size: 1em;
     font-weight: 100;
 }
-.partners{
+
+.partners {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-h5{
+h5 {
     color: #9092A3;
 }
 
-.text{
+.text h4 {
     color: #314259;
-    margin-left: 23em;
+    text-align: center;
     font-size: x-large;
+    margin-bottom: 1em;
 }
 
-.main{
+.main {
     margin-bottom: 5em;
 }
 
-.main-subtext h5{
+.main-subtext h5 {
     margin-bottom: 4em;
 }
-.main-content{
-    margin-bottom: 2em;
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.partners .swiggy {
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners .swiggy img {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .main-text h1 {
+        font-size: 2.5em;
+    }
+
+    .text h4 {
+        font-size: large;
+        margin-left: 0;
+    }
+
+    .main-subtext h5 {
+        font-size: 0.9em;
+    }
+
+    .partners .swiggy img {
+        max-width: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-text h1 {
+        font-size: 2em;
+    }
+
+    .text h4 {
+        font-size: medium;
+    }
+
+    .main-subtext h5 {
+        font-size: 0.8em;
+    }
+
+    .partners .swiggy img {
+        max-width: 60px;
+    }
 }

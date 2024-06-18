@@ -1,18 +1,15 @@
 .header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  padding: 1em;
+  padding: 2em;
   position: fixed;
   background-color: white;
   width: 100vw;
 }
 
-.companylogo{
-  margin-left: 10em;
 
-}
 
 .companylogo img{
   width: 10em;
@@ -22,7 +19,7 @@
 .header-content {
   display: flex;
   list-style: none;
-  margin-left: 20em;
+  margin-left: 15em;
 }
 
 .header-content li {
@@ -30,12 +27,9 @@
   font-size: medium;
 }
 
-.header-button {
-  margin-left: auto;
-}
 
 .button-content {
-  background-color: #0066cc;
+  background-color: #1678FB;
   width: 6em;
   height: 3em;
   border-radius: 0.5em;

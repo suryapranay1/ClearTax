@@ -34,7 +34,11 @@ const App = () => {
     <div className='looking'>
     <Looking/>
     </div>
-   
+
+    <div className='tabpanel'>
+    <TabsIconWithText/>
+    </div>
+    
     <div className='designed'>
     <Designed/>
     </div>
@@ -54,7 +58,7 @@ const App = () => {
  <SimpleCarousel/>
  </div>
  <Footer/>
- <TabsIconWithText/>
+ 
  
  
  

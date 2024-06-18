@@ -1,16 +1,4 @@
-.main5{
+.main5section{
     display: flex;
-    margin-top: 5em;
-    margin-right:20em;
-}
-
-.text{
-    margin-left: 1em;
-    color: #314259;
-    font-weight:700;
-    font-size: 4em;
-}
-
-.logo{
-    margin-left: 30em;
+    justify-content: space-evenly;
 }

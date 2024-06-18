@@ -60,7 +60,7 @@
 
 /* Button styling */
 .log1-button button, .log2-button button {
-    background-color: #0066cc;
+    background-color: #1678FB;
     color: white;
     border: none;
     padding: 25px 20px;
@@ -70,7 +70,7 @@
 }
 
 .log1-button button:hover, .log2-button button:hover {
-    background-color: #005bb5;
+    background-color: #1678FB;
 }
 
 /* Logos section styling */
