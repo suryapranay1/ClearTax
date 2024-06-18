@@ -1,22 +1,56 @@
-.commited{
+.commited {
     display: flex;
-}
-.commitedText h2{
-    font-size: 56px;
-    font-weight: 700;
-    color: #314259;
-    margin-left: 3em;
-}
-.commitedParagraph{
-    color:#9092A3;
-    font-size: 19px;
-    font-weight: 500;
-    text-align: left;
-    margin-left: 9em;
-}
-.commitedLogo img{
-    margin-left: 15em;
-}
-
-
-    
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1em;
+  }
+  
+  .commitedSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1 1 45%;
+    max-width: 600px;
+    padding: 1em;
+  }
+  
+  .commitedText {
+    margin-bottom: 1em;
+  }
+  
+  .commitedParagraph {
+    margin-bottom: 1em;
+  }
+  
+  .commitedLogo {
+    flex: 1 1 45%;
+    max-width: 600px;
+    text-align: center;
+    margin: 1em;
+  }
+  
+  .commitedLogo img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .commited {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .commitedSection, .commitedLogo {
+      flex: 1 1 100%;
+      max-width: 100%;
+      text-align: center;
+    }
+  
+    .commitedText, .commitedParagraph {
+      margin-left: 0;
+      text-align: center;
+    }
+  }
+  
