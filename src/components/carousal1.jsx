@@ -5,7 +5,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import { Card, CardContent, Typography, Box, IconButton } from '@mui/material';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-import './carousel.css'; // Import the custom CSS
+import './carousal1.css'; // Import the custom CSS
 
 // Custom arrow components
 function SampleNextArrow(props) {
@@ -58,27 +58,27 @@ function SamplePrevArrow(props) {
   );
 }
 
-function SimpleCarousel() {
+function SimpleCarousel1() {
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 2000,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
   };
 
   return (
-    <Box sx={{ width: '80%', margin: '0 auto', position: 'relative' }}>
+    <Box sx={{ width: '80%', margin: '0 auto',position: 'relative',border:'2px solid black',height:'40em' }}>
       <Typography variant="h2" component="h2" gutterBottom>
         Simple Carousel
       </Typography>
       <Slider {...settings}>
         <div>
-          <Card sx={{ width: 380, height: 250, margin: '1em' }}>
+          <Card sx={{ width: 600, height: 450, margin: '1em' }}>
             <CardContent>
               <Typography variant="h5" component="div">
                 Card 1
@@ -90,7 +90,7 @@ function SimpleCarousel() {
           </Card>
         </div>
         <div>
-          <Card sx={{ width: 380, height: 250, margin: '1em' }}>
+          <Card sx={{ width: 600, height: 450, margin: '1em' }}>
             <CardContent>
               <Typography variant="h5" component="div">
                 Card 2
@@ -102,7 +102,7 @@ function SimpleCarousel() {
           </Card>
         </div>
         <div>
-          <Card sx={{ width: 380, height: 250, margin: '1em' }}>
+          <Card sx={{ width: 600, height: 450, margin: '1em' }}>
             <CardContent>
               <Typography variant="h5" component="div">
                 Card 3
@@ -114,7 +114,7 @@ function SimpleCarousel() {
           </Card>
         </div>
         <div>
-          <Card sx={{ width: 380, height: 250, margin: '1em' }}>
+          <Card sx={{ width: 600, height: 450, margin: '1em' }}>
             <CardContent>
               <Typography variant="h5" component="div">
                 Card 4
@@ -126,7 +126,7 @@ function SimpleCarousel() {
           </Card>
         </div>
         <div>
-          <Card sx={{ width: 380, height: 250, margin: '1em' }}>
+          <Card sx={{ width: 600, height: 450, margin: '1em' }}>
             <CardContent>
               <Typography variant="h5" component="div">
                 Card 5
@@ -138,7 +138,7 @@ function SimpleCarousel() {
           </Card>
         </div>
         <div>
-          <Card sx={{ width: 380, height: 250, margin: '1em' }}>
+          <Card sx={{ width: 600, height: 450, margin: '1em' }}>
             <CardContent>
               <Typography variant="h5" component="div">
                 Card 6
@@ -155,4 +155,4 @@ function SimpleCarousel() {
   );
 }
 
-export default SimpleCarousel;
+export default SimpleCarousel1;

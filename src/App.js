@@ -10,6 +10,8 @@ import Commited from './components/commited'
 import Ready from './components/Ready'
 import SimpleCarousel from './components/courosal'
 import './App.css'
+import SimpleCarousel1 from './components/carousal1'
+import TabsIconWithText from './components/tabpanel'
 
 const App = () => {
   return (
@@ -22,10 +24,14 @@ const App = () => {
     <Designed/>
     <Commited/>
     <Ready/>
+    <div className='carousal'>
+      <SimpleCarousel1/>
+    </div>
     <div className='corosal'>
  <SimpleCarousel/>
  </div>
  <Footer/>
+ <TabsIconWithText/>
  
  
  

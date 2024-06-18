@@ -1,0 +1,80 @@
+.panelSection1{
+    display: flex;
+}
+.panelSection2{
+    display: flex;
+}
+
+.panelSection3{
+    display: flex;
+}
+.panelSection4{
+    display: flex;
+}
+.panelSection5{
+    display: flex;
+}
+
+.panelSection6{
+    display: flex;
+}
+.panelSection7{
+    display: flex;
+}
+.clearInvoice{
+margin-left: 20em;
+margin-bottom: 7em;
+}
+
+.clearGst{
+    margin-left: 17em;
+    margin-bottom: 7em;
+}
+
+.Cleare-Invoicing{
+    margin-left: 20em;
+}
+
+
+.ClearMaxITC{
+    margin-left: 13em;
+   
+}
+.cleargst{
+    margin-left: 20em;
+    margin-bottom: 7em;
+}
+
+.cleartaxxloud{
+    margin-left: 17em;
+    margin-bottom: 7em;
+}
+
+.Clearetds{
+    margin-left: 20em;
+}
+
+.Clearproapp{
+    margin-left: 19em;
+}
+
+.clearone{
+    margin-left: 19em;
+}
+.FileITR{
+    margin-left: 20em;
+    margin-bottom: 7em;
+}
+
+.clearInvest{
+    margin-left: 17em;
+    margin-bottom: 7em;
+}
+
+.ClearServices{
+    margin-left: 20em;
+}
+
+.Black{
+    margin-left: 13em;
+}
