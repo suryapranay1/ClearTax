@@ -16,14 +16,37 @@ import TabsIconWithText from './components/tabpanel'
 const App = () => {
   return (
     <>
+    <div className='header'>
     <Header/>
+    </div>
+    
+    <div className='maincontent'>
     <Maincontent/>
+    </div>
+    <div className='main2'>
     <Main2/>
+    </div>
+    
+    <div className='main5'>
     <Main5/>
+    </div>
+    
+    <div className='looking'>
     <Looking/>
+    </div>
+   
+    <div className='designed'>
     <Designed/>
+    </div>
+    
+    <div className='commited'>
     <Commited/>
+    </div>
+    
+    <div className='ready'>
     <Ready/>
+    </div>
+    
     <div className='carousal'>
       <SimpleCarousel1/>
     </div>

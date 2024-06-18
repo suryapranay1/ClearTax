@@ -22,12 +22,11 @@
     display: flex;
 }
 .clearInvoice{
-margin-left: 20em;
 margin-bottom: 7em;
 }
 
 .clearGst{
-    margin-left: 17em;
+    margin-left: 10em;
     margin-bottom: 7em;
 }
 

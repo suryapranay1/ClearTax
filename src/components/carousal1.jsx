@@ -1,11 +1,11 @@
-import React from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import { Card, CardContent, Typography, Box, IconButton } from '@mui/material';
-import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-import './carousal1.css'; // Import the custom CSS
+import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { Card, CardContent, Typography, Box, IconButton, Button } from "@mui/material";
+import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import "./carousal1.css"; // Import the custom CSS
 
 // Custom arrow components
 function SampleNextArrow(props) {
@@ -15,16 +15,16 @@ function SampleNextArrow(props) {
       className={`custom-arrow next-arrow ${className}`}
       style={{
         ...style,
-        display: 'block',
-        position: 'absolute',
-        top: '50%',
+        display: "block",
+        position: "absolute",
+        top: "50%",
         right: -10,
-        transform: 'translateY(-50%)',
+        transform: "translateY(-50%)",
         zIndex: 100,
-        backgroundColor: 'rgba(255, 255, 255, 0.5)',
-        color: 'black',
-        borderRadius: '50%',
-        padding: '8px',
+        backgroundColor: "rgba(255, 255, 255, 0.5)",
+        color: "black",
+        borderRadius: "50%",
+        padding: "8px",
       }}
       onClick={onClick}
     >
@@ -40,16 +40,16 @@ function SamplePrevArrow(props) {
       className={`custom-arrow prev-arrow ${className}`}
       style={{
         ...style,
-        display: 'block',
-        position: 'absolute',
-        top: '50%',
+        display: "block",
+        position: "absolute",
+        top: "50%",
         left: -10,
-        transform: 'translateY(-50%)',
+        transform: "translateY(-50%)",
         zIndex: 100,
-        backgroundColor: 'rgba(255, 255, 255, 0.5)',
-        color: 'black',
-        borderRadius: '50%',
-        padding: '8px',
+        backgroundColor: "rgba(255, 255, 255, 0.5)",
+        color: "black",
+        borderRadius: "50%",
+        padding: "8px",
       }}
       onClick={onClick}
     >
@@ -62,94 +62,101 @@ function SimpleCarousel1() {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 2,
     slidesToScroll: 1,
-    autoplay: false,
-    autoplaySpeed: 2000,
+    autoplay: true,
+    autoplaySpeed: 3000,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
   };
 
   return (
-    <Box sx={{ width: '80%', margin: '0 auto',position: 'relative',border:'2px solid black',height:'40em' }}>
-      <Typography variant="h2" component="h2" gutterBottom>
-        Simple Carousel
+    <Box
+      sx={{
+        width: "80%",
+        margin: "0 auto",
+        position: "relative",
+        height: "40em",
+      }}
+    >
+      <Typography sx={{color:'#314259',fontWeight:'700',fontSize:'3.5em',ml:'0.7em'}}>
+        Trusted by businesses and experts
       </Typography>
       <Slider {...settings}>
         <div>
-          <Card sx={{ width: 600, height: 450, margin: '1em' }}>
+          <Card sx={{ width: 600, height: 450, margin: "1em" }}>
             <CardContent>
-              <Typography variant="h5" component="div">
-                Card 1
+              <Typography sx={{color:'#314259',fontSize:'2em',fontWeight:'700',mb:'1em'}}>
+                <span style={{color:'blue'}}> 600,000+ </span>
+                business trust our SMB offerings
               </Typography>
-              <Typography variant="body2" color="text.secondary">
-                This is the content of card 1
+              <Typography sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px",mb:'6em' }}>
+                My executives could learn it so quickly and we implemented
+                literally in a couple of days. I am impressed with time-saving
+                features embedded in the software like advanced reconciliation
+                of 2A data with invoices.
               </Typography>
+              <Button endIcon={<ArrowForwardIosIcon/>}>Explore Products for small business</Button>
             </CardContent>
           </Card>
         </div>
         <div>
-          <Card sx={{ width: 600, height: 450, margin: '1em' }}>
-            <CardContent>
-              <Typography variant="h5" component="div">
-                Card 2
+          <Card sx={{ width: 600, height: 450, margin: "1em" }}>
+          <CardContent>
+              <Typography sx={{color:'#314259',fontSize:'2em',fontWeight:'700',mb:'1em'}}>
+            More than  
+                <span style={{color:'blue'}}> 60,000+ </span>
+                tax experts use our platform
+                
               </Typography>
-              <Typography variant="body2" color="text.secondary">
-                This is the content of card 2
+              <Typography sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px",mb:'6em' }}>
+                My executives could learn it so quickly and we implemented
+                literally in a couple of days. I am impressed with time-saving
+                features embedded in the software like advanced reconciliation
+                of 2A data with invoices.
               </Typography>
+              <Button endIcon={<ArrowForwardIosIcon/>}>Explore Products for tax experts</Button>
             </CardContent>
           </Card>
         </div>
         <div>
-          <Card sx={{ width: 600, height: 450, margin: '1em' }}>
-            <CardContent>
-              <Typography variant="h5" component="div">
-                Card 3
+          <Card sx={{ width: 600, height: 450, margin: "1em" }}>
+          <CardContent>
+              <Typography sx={{color:'#314259',fontSize:'2em',fontWeight:'700',mb:'1em'}}>
+                over
+                <span style={{color:'blue'}}> 1200+ </span>
+                enterprises uses our compiliance stack
+                
               </Typography>
-              <Typography variant="body2" color="text.secondary">
-                This is the content of card 3
+              <Typography sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px",mb:'6em' }}>
+                My executives could learn it so quickly and we implemented
+                literally in a couple of days. I am impressed with time-saving
+                features embedded in the software like advanced reconciliation
+                of 2A data with invoices.
               </Typography>
+              <Button endIcon={<ArrowForwardIosIcon/>}>Explore Products for large enterprises</Button>
             </CardContent>
           </Card>
         </div>
         <div>
-          <Card sx={{ width: 600, height: 450, margin: '1em' }}>
-            <CardContent>
-              <Typography variant="h5" component="div">
-                Card 4
+          <Card sx={{ width: 600, height: 450, margin: "1em" }}>
+          <CardContent>
+              <Typography sx={{color:'#314259',fontSize:'2em',fontWeight:'700',mb:'1em'}}>
+                over 
+                <span style={{color:'blue'}}> 5million+ </span>
+                tax payers have filed with us 
               </Typography>
-              <Typography variant="body2" color="text.secondary">
-                This is the content of card 4
+              <Typography sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px",mb:'6em' }}>
+                My executives could learn it so quickly and we implemented
+                literally in a couple of days. I am impressed with time-saving
+                features embedded in the software like advanced reconciliation
+                of 2A data with invoices.
               </Typography>
+              <Button endIcon={<ArrowForwardIosIcon/>}>Fil ITR yourself or take our experts assistance</Button>
             </CardContent>
           </Card>
         </div>
-        <div>
-          <Card sx={{ width: 600, height: 450, margin: '1em' }}>
-            <CardContent>
-              <Typography variant="h5" component="div">
-                Card 5
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                This is the content of card 5
-              </Typography>
-            </CardContent>
-          </Card>
-        </div>
-        <div>
-          <Card sx={{ width: 600, height: 450, margin: '1em' }}>
-            <CardContent>
-              <Typography variant="h5" component="div">
-                Card 6
-              </Typography>
-              <Typography variant="body2" color="text.secondary">
-                This is the content of card 6
-              </Typography>
-            </CardContent>
-          </Card>
-        </div>
-        
       </Slider>
     </Box>
   );
