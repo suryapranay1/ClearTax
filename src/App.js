@@ -50,9 +50,6 @@ const App = () => {
     <Commited/>
     </div>
     
-    <div className='ready'>
-    <Ready/>
-    </div>
     
     <div className='carousal'>
       <SimpleCarousel1/>
@@ -60,6 +57,10 @@ const App = () => {
     <div className='corosal'>
  <SimpleCarousel/>
  </div>
+ <div className='ready'>
+    <Ready/>
+    </div>
+    
  <Footer/>
  
  

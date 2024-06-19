@@ -18,7 +18,7 @@
   .clearInvest,
   .ClearServices,
   .Black {
-    flex: 1 1 45%; /* Adjust based on screen size */
+    flex: 1 1 45%; 
     margin-bottom: 2em;
   }
   

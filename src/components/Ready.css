@@ -1,35 +1,73 @@
-.ReadySec{
-    width:75vw;
-    border:2px solid black;
-    margin-left: 10.5em;
-    height: 25em;
+.ReadySec {
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
     display: flex;
-   
-}
-.readyButtons{
-display: flex;
-}
-
-.readyLogo img{
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 1em;
+  }
+  
+  .readyflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .readyText {
     margin-top: 2em;
-   margin-left: 22em;
-}
-
-.readyButton1{
+  }
+  
+  .readyButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 2em;
-    width: 10vw;
-    height: 5vh;
-    margin-left: 3em;
-   
-}
-
-.readyButton2{
+  }
+  
+  .readyButton1,
+  .readyButton2 {
+    width: 70%;
+    margin-top: 1em;
+  }
+  
+  .readyLogo img {
     margin-top: 2em;
-    width: 12vw;
-    height: 5vh;
-    margin-left: 3em;
-}
-
-.readyText h2{
-    margin-top: 9.2em;;
-}
+    width: 80%;
+    height: auto;
+  }
+  
+  @media (min-width: 768px) {
+    .ReadySec {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 2em 5em;
+    }
+  
+    .readyflex {
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+    }
+  
+    .readyButtons {
+      flex-direction: row;
+      align-items: center;
+      margin-top: 0;
+    }
+  
+    .readyButton1,
+    .readyButton2 {
+      width: auto;
+      margin: 0 1em;
+    }
+  
+    .readyLogo img {
+      margin-top: 0;
+      margin-left: 2em;
+      width: auto;
+    }
+  }
+  
