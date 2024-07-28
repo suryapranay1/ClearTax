@@ -13,9 +13,10 @@ import './App.css'
 import SimpleCarousel1 from './components/carousal1'
 import TabsIconWithText from './components/tabpanel'
 import Plugandplay from './components/pugandplay'
+
 const App = () => {
   return (
-    <>
+    <app className='app'>
     <div className='header'>
     <Header/>
     </div>
@@ -66,7 +67,7 @@ const App = () => {
  
  
  
-    </>
+    </app>
    
   )
 }

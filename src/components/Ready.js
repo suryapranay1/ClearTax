@@ -13,8 +13,9 @@ const Ready = () => {
               color: '#314259',
               marginTop: '1em',
               fontWeight: '700',
-              fontSize: '2.7em',
+              fontSize: { xs: '2em', sm: '2.7em' },
               width: 'auto',
+              textAlign: { xs: 'center', md: 'left' },
             }}
           >
             Ready to get started?
@@ -27,13 +28,22 @@ const Ready = () => {
               sx={{
                 backgroundColor: "skyblue",
                 "&:hover": { backgroundColor: '#F5F5F5' },
+                width: { xs: '100%', md: 'auto' },
+                margin: { xs: '0.5em 0', md: '0' }
               }}
             >
               Try for Free
             </Button>
           </div>
           <div className="readyButton2">
-            <Button color="primary" endIcon={<ArrowRight />}>
+            <Button
+              color="primary"
+              endIcon={<ArrowRight />}
+              sx={{
+                width: { xs: '100%', md: 'auto' },
+                margin: { xs: '0.5em 0', md: '0' }
+              }}
+            >
               Schedule Demo
             </Button>
           </div>

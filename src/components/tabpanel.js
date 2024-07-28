@@ -67,193 +67,261 @@ export default function TabsIconWithText() {
         <TabPanel value={0}>
           <div className="panelSection panelSection1">
             <div className="clearInvoice">
+              <div className="img1logo">
+                <img src="https://assets1.cleartax-cdn.com/cleartax/images/1606372771_einvoicing3.png"></img>
+              </div>
               <div className="cleargst">
                 <Typography
-                  sx={{ color: "#314259", fontWeight: 700, fontSize: "24px" }}
+                  sx={{ color: "#314259", fontWeight: 700, fontSize: "24px" ,ml:2}}
                 >
                   Clear e-invoice
                 </Typography>
                 <Typography
-                  sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px" }}
+                  sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px" ,ml:2}}
                 >
                   Fast, dependable and <br></br>affordable solution
                 </Typography>
               </div>
             </div>
             <div className="clearGst">
+              <div className="img1logo">
+                <img src='https://assets1.cleartax-cdn.com/cleartax/images/1603967824_ic_clear_gst.svg'></img>
+              </div>
+              <div>
               <Typography
-                sx={{ color: "#314259", fontWeight: 700, fontSize: "24px" }}
+                sx={{ color: "#314259", fontWeight: 700, fontSize: "24px" ,ml:2}}
               >
                 Clear GST
               </Typography>
               <Typography
-                sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px" }}
+                sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px" ,ml:2}}
               >
                 G1 to G9 filing, 10x faster<br></br> reconciliations &amp;
                 reports
               </Typography>
+              </div>
+              
             </div>
           </div>
           <div className="panelSection panelSection2">
+            
             <div className="Cleare-Invoicing">
-              <Typography
-                sx={{ color: "#314259", fontWeight: 700, fontSize: "24px" }}
+            <div className="img1logo">
+              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1603967983_ic_ewayb.svg"></img>
+            </div>
+            <div>
+            <Typography
+                sx={{ color: "#314259", fontWeight: 700, fontSize: "24px" ,ml:2}}
               >
                 ClearE-Waybill
               </Typography>
               <Typography
-                sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px" }}
+                sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px" ,ml:2}}
               >
                 10x faster waybill solution for<br></br> large businesses
               </Typography>
             </div>
+              
+            </div>
             <div className="ClearMaxITC">
+              <div className="img1logo">
+                <img src="https://assets1.cleartax-cdn.com/cleartax/images/1623152598_taxsavings.png"></img>
+              </div>
+              <div>
               <Typography
-                sx={{ color: "#314259", fontWeight: 700, fontSize: "24px" }}
+                sx={{ color: "#314259", fontWeight: 700, fontSize: "24px" ,ml:2}}
               >
                 ClearMax ITC
               </Typography>
               <Typography
-                sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px" }}
+                sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px",ml:2 }}
               >
                 End-to-end solution to <br></br> maximize ITC for businesses
               </Typography>
+              </div>
+              
             </div>
           </div>
         </TabPanel>
         <TabPanel value={1}>
           <div className="panelSection panelSection3">
-            <div className="cleargst">
+            <div className="clearggst">
+              <div className="imglogo1">
+<img src="https://assets1.cleartax-cdn.com/cleartax/images/1603967824_ic_clear_gst.svg"></img>
+              </div>
+              <div>
               <Typography
-                sx={{ color: "#314259", fontWeight: 700, fontSize: "24px" }}
+                sx={{ color: "#314259", fontWeight: 700, fontSize: "24px",ml:2 }}
               >
                 Clear GST
               </Typography>
               <Typography
-                sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px" }}
+                sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px",ml:2 }}
               >
                 Comprehensive platform <br></br>for core GST compliance
               </Typography>
+              </div>
+              
             </div>
             <div className="cleartaxxloud">
+              <div className="imglogo1">
+<img src="https://assets1.cleartax-cdn.com/cleartax/images/1606218204_cleartds.svg"></img>
+              </div>
+              <div>
               <Typography
-                sx={{ color: "#314259", fontWeight: 700, fontSize: "24px" }}
+                sx={{ color: "#314259", fontWeight: 700, fontSize: "24px",ml:2 }}
               >
                 ClearTax Cloud
               </Typography>
               <Typography
-                sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px" }}
+                sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px",ml:2 }}
               >
                 Seamless ITR filing <br></br>platform for accountants
               </Typography>
+              </div>
+              
             </div>
           </div>
           <div className="panelSection panelSection4">
             <div className="Clearetds">
+              <div className="imglogo1">
+<img src="https://assets1.cleartax-cdn.com/cleartax/images/1614344289_clearproapp.svg"></img>
+              </div>
+              <div>
               <Typography
-                sx={{ color: "#314259", fontWeight: 700, fontSize: "24px" }}
+                sx={{ color: "#314259", fontWeight: 700, fontSize: "24px",ml:2 }}
               >
                 ClearTDS
               </Typography>
               <Typography
-                sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px" }}
+                sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px",ml:2 }}
               >
                 Go-to platform for<br></br> effortless TDS returns
               </Typography>
+              </div>
+              
             </div>
             <div className="Clearproapp">
+              <div className="imglogo1">
+<img src="https://assets1.cleartax-cdn.com/cleartax/images/1603968183_ic_taxcloud.svg"></img>
+              </div>
+              <div>
               <Typography
-                sx={{ color: "#314259", fontWeight: 700, fontSize: "24px" }}
+                sx={{ color: "#314259", fontWeight: 700, fontSize: "24px",ml:2 }}
               >
                 ClearPro App
               </Typography>
               <Typography
-                sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px" }}
+                sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px",ml:2 }}
               >
                 Track filing status from<br></br> your phone in one click
               </Typography>
+              </div>
+              
             </div>
           </div>
         </TabPanel>
         <TabPanel value={2}>
           <div className="panelSection panelSection5">
             <div className="clearGst">
+              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1603967824_ic_clear_gst.svg"></img>
+              <div>
               <Typography
-                sx={{ color: "#314259", fontWeight: 700, fontSize: "24px" }}
+                sx={{ color: "#314259", fontWeight: 700, fontSize: "24px",ml:2 }}
               >
                 ClearGST
               </Typography>
               <Typography
-                sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px" }}
+                sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px",ml:2 }}
               >
                 From G1 to G9, 3x faster and <br></br>2-7% tax savings
               </Typography>
+              </div>
+              
             </div>
             <div className="clearone">
+              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1618557796_clearone.svg"></img>
+              <div>
               <Typography
-                sx={{ color: "#314259", fontWeight: 700, fontSize: "24px" }}
+                sx={{ color: "#314259", fontWeight: 700, fontSize: "24px",ml:2 }}
               >
                 ClearOne
               </Typography>
               <Typography
-                sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px" }}
+                sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px",ml:2 }}
               >
                 Billing, Payment Collection & <br></br>Inventory Software
               </Typography>
+              </div>
+              
             </div>
           </div>
         </TabPanel>
         <TabPanel value={3}>
           <div className="panelSection panelSection6">
             <div className="FileITR">
+              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1603968068_ic_itr.svg"></img>
+              <div>
               <Typography
-                sx={{ color: "#314259", fontWeight: 700, fontSize: "24px" }}
+                sx={{ color: "#314259", fontWeight: 700, fontSize: "24px",ml:2 }}
               >
                 FileITR
               </Typography>
               <Typography
-                sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px" }}
+                sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px",ml:2 }}
               >
                 Complete tax returns in<br></br> under 3 minutes
               </Typography>
+              </div>
+              
             </div>
             <div className="clearInvest">
-              <Typography
-                sx={{ color: "#314259", fontWeight: 700, fontSize: "24px" }}
+              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1606217655_clearinvest.svg"></img>
+              <div> <Typography
+                sx={{ color: "#314259", fontWeight: 700, fontSize: "24px",ml:2 }}
               >
                 ClearInvest
               </Typography>
               <Typography
-                sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px" }}
+                sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px",ml:2 }}
               >
                 Save and grow wealth with <br></br>expert-curated funds
-              </Typography>
+              </Typography></div>
+             
             </div>
           </div>
           <div className="panelSection panelSection7">
             <div className="ClearServices">
-              <Typography
-                sx={{ color: "#314259", fontWeight: 700, fontSize: "24px" }}
+              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1606217684_clearservices.svg"></img>
+              <div> <Typography
+                sx={{ color: "#314259", fontWeight: 700, fontSize: "24px",ml:2 }}
               >
                 ClearServices
               </Typography>
               <Typography
-                sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px" }}
+                sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px",ml:2 }}
               >
                 Get experts for filing taxes<br></br> and starting up
-              </Typography>
+              </Typography></div>
+             
             </div>
             <div className="Black">
+              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1603967633_ic_black_app.svg">
+
+              </img>
+              <div>
               <Typography
-                sx={{ color: "#314259", fontWeight: 700, fontSize: "24px" }}
+                sx={{ color: "#314259", fontWeight: 700, fontSize: "24px",ml:2 }}
               >
                 Black
               </Typography>
               <Typography
-                sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px" }}
+                sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px",ml:2 }}
               >
                 More money in your pocket<br></br> with Black app
               </Typography>
+              </div>
+             
             </div>
           </div>
         </TabPanel>

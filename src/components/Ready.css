@@ -1,73 +1,72 @@
 .ReadySec {
-    width: 75vw;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2em 1em;
+  width: 100%;
+  max-width: 1200px; /* Aligning with a typical header max-width */
+  margin: 0 auto; /* Centering the section */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em 1em;
+  box-sizing: border-box; /* Ensuring padding and border are included in the width */
+}
+
+.readyflex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.readyText {
+  margin-top: 2em;
+}
+
+.readyButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.readyButton1,
+.readyButton2 {
+  width: 70%;
+  margin-top: 1em;
+}
+
+.readyLogo img {
+  margin-top: 2em;
+  width: 70%;
+  height: 50%;
+}
+
+@media (min-width: 768px) {
+  .ReadySec {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em 5em;
   }
-  
+
   .readyflex {
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
+    text-align: left;
   }
-  
-  .readyText {
-    margin-top: 2em;
-  }
-  
+
   .readyButtons {
-    display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    margin-top: 2em;
+    margin-top: 0;
   }
-  
+
   .readyButton1,
   .readyButton2 {
-    width: 70%;
-    margin-top: 1em;
+    width: auto;
+    margin: 0 1em;
   }
-  
+
   .readyLogo img {
-    margin-top: 2em;
-    width: 80%;
-    height: auto;
+    margin-top: 0;
+    margin-left: 2em;
   }
-  
-  @media (min-width: 768px) {
-    .ReadySec {
-      flex-direction: row;
-      justify-content: space-between;
-      padding: 2em 5em;
-    }
-  
-    .readyflex {
-      flex-direction: column;
-      align-items: flex-start;
-      text-align: left;
-    }
-  
-    .readyButtons {
-      flex-direction: row;
-      align-items: center;
-      margin-top: 0;
-    }
-  
-    .readyButton1,
-    .readyButton2 {
-      width: auto;
-      margin: 0 1em;
-    }
-  
-    .readyLogo img {
-      margin-top: 0;
-      margin-left: 2em;
-      width: auto;
-    }
-  }
-  
+}

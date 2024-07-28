@@ -10,7 +10,7 @@ const Pugandplay = () => {
           fontSize: { xs: "2em", sm: "2.5em", md: "3em", lg: "4em" },
           fontWeight: 700,
           textAlign: { xs: "center", md: "left" },
-          ml: { xs: "0", md: "9em" },
+          ml: { xs: "0", md: "7em" },
         }}
       >
         Plug and Play
@@ -22,7 +22,7 @@ const Pugandplay = () => {
           fontSize: { xs: "1em", sm: "1.2em", md: "1.4em" },
           textAlign: { xs: "center", md: "left" },
           mt: { xs: "1em", md: "0.5em" },
-          ml: { xs: "0", md: "20em" },
+          ml: { xs: "0", md: "14em" },
         }}
       >
         An exhaustive portfolio of cloud-based products you could use from day

@@ -1,0 +1,20 @@
+.read1,.read2,
+.read3,.read4,
+.read5,.read6,
+.read7{
+    margin-top: 2em;
+    display: flex;
+
+}
+
+
+.watch1,.watch2{
+    display: flex;
+    margin-top: 2em;
+}
+
+.engage1,.engage2,.engage3{
+    display: flex;
+    margin-top: 2em;
+    
+}

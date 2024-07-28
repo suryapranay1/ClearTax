@@ -49,4 +49,13 @@
       margin-left: 2em;
     }
   }
-  
+  .divtypoimg{
+    display: flex;
+  }
+  .divtypo{
+    margin-left: 2em;
+  }
+
+  .sec{
+    margin-left: 5em;
+  }

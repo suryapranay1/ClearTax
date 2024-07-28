@@ -69,22 +69,40 @@ function SimpleCarousel() {
     autoplaySpeed: 2000,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
     <Box sx={{ width: '80%', margin: '0 auto', position: 'relative' }}>
-      <Typography sx={{color:'#314259',fontSize:'3em',fontWeight:'700',ml:'0.8em',mb:'1em'}}>
+      <Typography sx={{ color: '#314259', fontSize: '3em', fontWeight: '700', ml: '0.8em', mb: '1em' }}>
         Press and Awards
       </Typography>
       <Slider {...settings}>
         <div>
           <Card sx={{ width: 380, height: 250, margin: '1em' }}>
             <CardContent>
-              <Typography sx={{color:'#314259',fontSize:'1.5em',fontWeight:'700',textAlign:'center',mb:'2em'}}>
+              <Typography sx={{ color: '#314259', fontSize: '1.5em', fontWeight: '700', textAlign: 'center', mb: '2em' }}>
                 2023
               </Typography>
-              <Typography sx={{color:'#1678FB',fontSize:'1.5em',fontWeight:'700',textAlign:'center',mb:'2em'}}>
-                BW Disrupt <br></br>Techtors
+              <Typography sx={{ color: '#1678FB', fontSize: '1.5em', fontWeight: '700', textAlign: 'center', mb: '2em' }}>
+                BW Disrupt <br /> Techtors
               </Typography>
             </CardContent>
           </Card>
@@ -92,11 +110,11 @@ function SimpleCarousel() {
         <div>
           <Card sx={{ width: 380, height: 250, margin: '1em' }}>
             <CardContent>
-            <Typography sx={{color:'#314259',fontSize:'1.5em',fontWeight:'700',textAlign:'center',mb:'2em'}}>
+              <Typography sx={{ color: '#314259', fontSize: '1.5em', fontWeight: '700', textAlign: 'center', mb: '2em' }}>
                 2022
               </Typography>
-              <Typography sx={{color:'#1678FB',fontSize:'1.5em',fontWeight:'700',textAlign:'center',mb:'2em'}}>
-                Fintech Scaleup <br></br>of the year
+              <Typography sx={{ color: '#1678FB', fontSize: '1.5em', fontWeight: '700', textAlign: 'center', mb: '2em' }}>
+                Fintech Scaleup <br /> of the year
               </Typography>
             </CardContent>
           </Card>
@@ -104,11 +122,11 @@ function SimpleCarousel() {
         <div>
           <Card sx={{ width: 380, height: 250, margin: '1em' }}>
             <CardContent>
-            <Typography sx={{color:'#314259',fontSize:'1.5em',fontWeight:'700',textAlign:'center',mb:'2em'}}>
+              <Typography sx={{ color: '#314259', fontSize: '1.5em', fontWeight: '700', textAlign: 'center', mb: '2em' }}>
                 2021
               </Typography>
-              <Typography sx={{color:'#1678FB',fontSize:'1.5em',fontWeight:'700',textAlign:'center',mb:'2em'}}>
-                Emerging Fintech <br></br>Player
+              <Typography sx={{ color: '#1678FB', fontSize: '1.5em', fontWeight: '700', textAlign: 'center', mb: '2em' }}>
+                Emerging Fintech <br /> Player
               </Typography>
             </CardContent>
           </Card>
@@ -116,11 +134,11 @@ function SimpleCarousel() {
         <div>
           <Card sx={{ width: 380, height: 250, margin: '1em' }}>
             <CardContent>
-            <Typography sx={{color:'#314259',fontSize:'1.5em',fontWeight:'700',textAlign:'center',mb:'2em'}}>
+              <Typography sx={{ color: '#314259', fontSize: '1.5em', fontWeight: '700', textAlign: 'center', mb: '2em' }}>
                 2020
               </Typography>
-              <Typography sx={{color:'#1678FB',fontSize:'1.5em',fontWeight:'700',textAlign:'center',mb:'2em'}}>
-                Fintech Solution <br></br>of the Year
+              <Typography sx={{ color: '#1678FB', fontSize: '1.5em', fontWeight: '700', textAlign: 'center', mb: '2em' }}>
+                Fintech Solution <br /> of the Year
               </Typography>
             </CardContent>
           </Card>
@@ -128,11 +146,11 @@ function SimpleCarousel() {
         <div>
           <Card sx={{ width: 380, height: 250, margin: '1em' }}>
             <CardContent>
-            <Typography sx={{color:'#314259',fontSize:'1.5em',fontWeight:'700',textAlign:'center',mb:'2em'}}>
+              <Typography sx={{ color: '#314259', fontSize: '1.5em', fontWeight: '700', textAlign: 'center', mb: '2em' }}>
                 2019
               </Typography>
-              <Typography sx={{color:'#1678FB',fontSize:'1.5em',fontWeight:'700',textAlign:'center',mb:'2em'}}>
-                Tech Leader <br></br>of the year
+              <Typography sx={{ color: '#1678FB', fontSize: '1.5em', fontWeight: '700', textAlign: 'center', mb: '2em' }}>
+                Tech Leader <br /> of the year
               </Typography>
             </CardContent>
           </Card>
@@ -140,16 +158,15 @@ function SimpleCarousel() {
         <div>
           <Card sx={{ width: 380, height: 250, margin: '1em' }}>
             <CardContent>
-              <Typography variant="h5" component="div">
+              <Typography sx={{ color: '#314259', fontSize: '1.5em', fontWeight: '700', textAlign: 'center', mb: '2em' }}>
                 2018
               </Typography>
-              <Typography variant="body2" color="text.secondary">
-                This is the content of card 6
+              <Typography sx={{ color: '#1678FB', fontSize: '1.5em', fontWeight: '700', textAlign: 'center', mb: '2em' }}>
+                Tech Innovator <br /> of the Year
               </Typography>
             </CardContent>
           </Card>
         </div>
-        
       </Slider>
     </Box>
   );

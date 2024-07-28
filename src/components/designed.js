@@ -16,10 +16,11 @@ const Designed = () => {
         <Typography
           sx={{
             color: "#314259",
-            fontSize: "56px",
+            fontSize: { xs: "36px", sm: "56px" },
             fontWeight: "700",
-            ml: "1em",
-            mb: ".5em"
+            ml: { xs: "0", sm: "1em" },
+            mb: ".5em",
+            textAlign: { xs: "center", sm: "left" }
           }}
         >
           Designed by experts
@@ -29,7 +30,8 @@ const Designed = () => {
             color: "#9092A3",
             fontSize: "20px",
             fontWeight: "500",
-            ml: "3em",
+            ml: { xs: "0", sm: "3em" },
+            textAlign: { xs: "center", sm: "left" }
           }}
         >
           With our solutions, you don’t have to worry <br></br>about complying with the

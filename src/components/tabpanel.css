@@ -46,3 +46,23 @@
     }
   }
   
+
+  .clearGst,.Cleare-Invoicing,.ClearMaxITC,.Clearproapp,.Clearetds,.cleartaxxloud,.clearone{
+    display: flex;
+  }
+
+  .Black,.ClearServices,.clearInvest,.FileITR{
+    display: flex;
+  }
+
+  .clearInvoice{
+    display: flex;
+  }
+  .clearggst
+  {
+    display: flex;
+  }
+
+  .cleartaxxloud{
+    margin-left: 19em;
+  }

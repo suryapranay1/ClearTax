@@ -1,0 +1,21 @@
+.individual1,.individual2,
+.individual3,.individual4,
+.individual5,.individual6,
+.individual7,.individual8,
+.individual9{
+    margin-top: 2em;
+    display: flex;
+
+}
+
+
+.product1,.product2,.product3{
+    display: flex;
+    margin-top: 2em;
+}
+
+.consumer1,.consumer2{
+    display: flex;
+    margin-top: 2em;
+    
+}

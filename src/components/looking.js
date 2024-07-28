@@ -5,7 +5,7 @@ import { Typography } from "@mui/material";
 const Looking = () => {
   return (
     <>
-      <div className="lookingcolor"></div>
+      <div className="lookingcolor">
       <div className="lookingText">
         <Typography
           sx={{
@@ -53,7 +53,12 @@ const Looking = () => {
               For You
             </Typography>
           </div>
-          <div>
+          <div className="divtypoimg">
+
+            <div className="divimg">
+              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1605873415_taxreturnfilled.svg" style={{marginLeft:'-1em'}}></img>
+            </div>
+            <div className="divtypo">
             <Typography
               sx={{
                 color: "#314259",
@@ -71,8 +76,14 @@ const Looking = () => {
               Salaried and self-employed individuals, NRIs,<br />
               Capital gains, and more.
             </Typography>
+            </div>
+           
           </div>
-          <div>
+          <div className="divtypoimg">
+          <div className="divimg">
+              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1651557178_group17737.svg"></img>
+            </div>
+            <div className="divtypo">
             <Typography
               sx={{
                 color: "#314259",
@@ -90,8 +101,14 @@ const Looking = () => {
               Hassle-free 26QB compliance on sale of <br />
               property
             </Typography>
+            </div>
+            
           </div>
-          <div>
+          <div className="divtypoimg">
+          <div className="divimg">
+              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1651557311_group17732.svg"></img>
+            </div>
+            <div className="divtypo">
             <Typography
               sx={{
                 color: "#314259",
@@ -110,6 +127,8 @@ const Looking = () => {
               such as Sale deed, Vendor agreement, Co-<br />
               founders agreement etc
             </Typography>
+            </div>
+            
           </div>
         </div>
         <div className="lookingsec2">
@@ -125,7 +144,11 @@ const Looking = () => {
               For Your Business
             </Typography>
           </div>
-          <div>
+          <div className="divtypoimg">
+          <div className="divimg">
+              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1651559294_group17652.svg"></img>
+            </div>
+            <div className="divtypo">
             <Typography
               sx={{
                 color: "#314259",
@@ -142,8 +165,14 @@ const Looking = () => {
               Legal drafting, documentation review,<br />
               change in company name etc.
             </Typography>
+            </div>
+            
           </div>
-          <div>
+          <div className="divtypoimg">
+          <div className="divimg">
+              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1651559329_incometaxreturns.svg"></img>
+            </div>
+            <div className="divtypo">
             <Typography
               sx={{
                 color: "#314259",
@@ -161,8 +190,14 @@ const Looking = () => {
               Registration for Shop licence, PF, PAN, FSSAI<br />
               and more
             </Typography>
+            </div>
+           
           </div>
-          <div>
+          <div className="divtypoimg">
+          <div className="divimg">
+              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1651559337_group18140924.svg"></img>
+            </div>
+            <div className="divtypo">
             <Typography
               sx={{
                 color: "#314259",
@@ -180,8 +215,11 @@ const Looking = () => {
               Trademark registrations and renewals;<br />
               Digital signature certificate
             </Typography>
+            </div>
+            
           </div>
         </div>
+      </div>
       </div>
     </>
   );

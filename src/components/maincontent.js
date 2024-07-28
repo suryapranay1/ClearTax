@@ -1,20 +1,15 @@
 import React from "react";
 import "./maincontent.css";
-import StarBorderIcon from "@mui/icons-material/StarBorder";
-import HandshakeIcon from "@mui/icons-material/Handshake";
-import QueryBuilderIcon from "@mui/icons-material/QueryBuilder";
-import ArticleIcon from "@mui/icons-material/Article";
+import { Typography } from "@mui/material";
 
 const Maincontent = () => {
   return (
     <div className="main">
       <div className="main-text">
-        <h1>ITR filing has never been simpler</h1>
+        <h1>File your taxes now in 3-easy steps</h1>
       </div>
       <div className="main-subtext">
-        <h5>
-          India’s only end-to-end tax filing platform for all kinds of income
-        </h5>
+        <h5>Beat the deadline, avoid penalties & last min rush</h5>
       </div>
       <div className="main-content">
         <div className="division1">
@@ -26,11 +21,11 @@ const Maincontent = () => {
           </div>
           <div className="log1-subcontent">
             <h4>
-              File your taxes yourself with ease<pre></pre> in no time with 100% accuracy
+              File your taxes yourself with ease in no time with 100% accuracy
             </h4>
           </div>
           <div className="log1-button">
-            <button>Start for free, pay only when you file</button>
+            <button>File Now</button>
           </div>
         </div>
         <div className="division2">
@@ -42,7 +37,7 @@ const Maincontent = () => {
           </div>
           <div className="log2-subcontent">
             <h4>
-              File taxes yourself with ease,<pre></pre>hire our tax experts if you need
+              Let our top tax experts file <pre></pre>your taxes end to end
             </h4>
           </div>
           <div className="log2-button">
@@ -50,42 +45,48 @@ const Maincontent = () => {
           </div>
         </div>
       </div>
-      <div className="logos">
-        <div className="symbols">
-          <div className="subsymbols">
-            <StarBorderIcon />
-            <div className="symbol1">
-              <div className="subtext1">4.9</div>
-              <div>
-                <h3>(15k+ reviews)</h3>
-              </div>
+      <div className="symbols">
+        <div className="subsymbols">
+          <div className="img1">
+            <img src="https://assets1.cleartax-cdn.com/finfo/wg-utils/retool/04f0df96-6d3a-4cc2-beaf-bdf1281e324a.svg" alt="icon1"/>
+          </div>
+          <div className="img1down">
+            <div className="subtext1">4.9</div>
+            <div className="subsubtext">
+              <Typography sx={{ color: '#9092A3', fontWeight: '500', fontSize: '16px' }}>(15k+ reviews)</Typography>
             </div>
           </div>
-          <div className="subsymbols">
-            <HandshakeIcon />
-            <div className="symbol2">
-              <div className="subtext2">6M+</div>
-              <div>
-                <h3>users trust Clear Tax</h3>
-              </div>
+        </div>
+        <div className="subsymbols">
+          <div className="img1">
+            <img src="https://assets1.cleartax-cdn.com/finfo/wg-utils/retool/26a5c526-8355-4ea0-9c60-4f25f135a698.svg" alt="icon2"/>
+          </div>
+          <div className="img1down">
+            <div className="subtext1">6M+</div>
+            <div className="subsubtext">
+              <Typography sx={{ color: '#9092A3', fontWeight: '500', fontSize: '16px' }}>users trust Clear Tax</Typography>
             </div>
           </div>
-          <div className="subsymbols">
-            <QueryBuilderIcon />
-            <div className="symbol3">
-              <div className="subtext3">1.8M+</div>
-              <div>
-                <h3>hours saved</h3>
-              </div>
+        </div>
+        <div className="subsymbols">
+          <div className="img1">
+            <img src="https://assets1.cleartax-cdn.com/finfo/wg-utils/retool/cf96f34a-2345-4f05-830b-568ac9c0947a.svg" alt="icon3"/>
+          </div>
+          <div className="img1down">
+            <div className="subtext1">1.8M+</div>
+            <div className="subsubtext">
+              <Typography sx={{ color: '#9092A3', fontWeight: '500', fontSize: '16px' }}>hours saved</Typography>
             </div>
           </div>
-          <div className="subsymbols">
-            <ArticleIcon />
-            <div className="symbol4">
-              <div className="subtext4">6M+</div>
-              <div>
-                <h3>worth taxes filed</h3>
-              </div>
+        </div>
+        <div className="subsymbols">
+          <div className="img1">
+            <img src="https://assets1.cleartax-cdn.com/finfo/wg-utils/retool/9169b3ee-90ce-43fa-9226-aeef90099db6.svg" alt="icon4"/>
+          </div>
+          <div className="img1down">
+            <div className="subtext1">6M+</div>
+            <div className="subsubtext">
+              <Typography sx={{ color: '#9092A3', fontWeight: '500', fontSize: '16px' }}>worth taxes filed</Typography>
             </div>
           </div>
         </div>

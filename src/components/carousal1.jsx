@@ -69,6 +69,24 @@ function SimpleCarousel1() {
     autoplaySpeed: 3000,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
@@ -77,83 +95,89 @@ function SimpleCarousel1() {
         width: "80%",
         margin: "0 auto",
         position: "relative",
-        height: "40em",
+        height: { xs: "auto", md: "40em" },
       }}
     >
-      <Typography sx={{color:'#314259',fontWeight:'700',fontSize:'3.5em',ml:'0.7em'}}>
+      <Typography
+        sx={{
+          color: '#314259',
+          fontWeight: '700',
+          fontSize: { xs: '2em', md: '3.5em' },
+          ml: '0.7em',
+          mb: '1em',
+        }}
+      >
         Trusted by businesses and experts
       </Typography>
       <Slider {...settings}>
         <div>
-          <Card sx={{ width: 600, height: 450, margin: "1em" }}>
+          <Card sx={{ width: { xs: '100%', md: 600 }, height: { xs: 'auto', md: 450 }, margin: "1em" }}>
             <CardContent>
-              <Typography sx={{color:'#314259',fontSize:'2em',fontWeight:'700',mb:'1em'}}>
-                <span style={{color:'#1678FB'}}> 600,000+ </span>
+              <Typography sx={{ color: '#314259', fontSize: { xs: '1.5em', md: '2em' }, fontWeight: '700', mb: '1em' }}>
+                <span style={{ color: '#1678FB' }}> 600,000+ </span>
                 business trust our SMB offerings
               </Typography>
-              <Typography sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px",mb:'6em' }}>
+              <Typography sx={{ color: "#9092A3", fontWeight: 500, fontSize: { xs: "16px", md: "20px" }, mb: { xs: '1em', md: '6em' } }}>
                 My executives could learn it so quickly and we implemented
                 literally in a couple of days. I am impressed with time-saving
                 features embedded in the software like advanced reconciliation
                 of 2A data with invoices.
               </Typography>
-              <Button endIcon={<ArrowForwardIosIcon/>}>Explore Products for small business</Button>
+              <Button endIcon={<ArrowForwardIosIcon />}>Explore Products for small business</Button>
             </CardContent>
           </Card>
         </div>
         <div>
-          <Card sx={{ width: 600, height: 450, margin: "1em" }}>
-          <CardContent>
-              <Typography sx={{color:'#314259',fontSize:'2em',fontWeight:'700',mb:'1em'}}>
-            More than  
-                <span style={{color:'#1678FB'}}> 60,000+ </span>
+          <Card sx={{ width: { xs: '100%', md: 600 }, height: { xs: 'auto', md: 450 }, margin: "1em" }}>
+            <CardContent>
+              <Typography sx={{ color: '#314259', fontSize: { xs: '1.5em', md: '2em' }, fontWeight: '700', mb: '1em' }}>
+                More than
+                <span style={{ color: '#1678FB' }}> 60,000+ </span>
                 tax experts use our platform
-                
               </Typography>
-              <Typography sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px",mb:'6em' }}>
+              <Typography sx={{ color: "#9092A3", fontWeight: 500, fontSize: { xs: "16px", md: "20px" }, mb: { xs: '1em', md: '6em' } }}>
                 My executives could learn it so quickly and we implemented
                 literally in a couple of days. I am impressed with time-saving
                 features embedded in the software like advanced reconciliation
                 of 2A data with invoices.
               </Typography>
-              <Button endIcon={<ArrowForwardIosIcon/>}>Explore Products for tax experts</Button>
+              <Button endIcon={<ArrowForwardIosIcon />}>Explore Products for tax experts</Button>
             </CardContent>
           </Card>
         </div>
         <div>
-          <Card sx={{ width: 600, height: 450, margin: "1em" }}>
-          <CardContent>
-              <Typography sx={{color:'#314259',fontSize:'2em',fontWeight:'700',mb:'1em'}}>
+          <Card sx={{ width: { xs: '100%', md: 600 }, height: { xs: 'auto', md: 450 }, margin: "1em" }}>
+            <CardContent>
+              <Typography sx={{ color: '#314259', fontSize: { xs: '1.5em', md: '2em' }, fontWeight: '700', mb: '1em' }}>
                 over
-                <span style={{color:'#1678FB'}}> 1200+ </span>
-                enterprises uses our compiliance stack
-                
+                <span style={{ color: '#1678FB' }}> 1200+ </span>
+                enterprises use our compliance stack
               </Typography>
-              <Typography sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px",mb:'6em' }}>
+              <Typography sx={{ color: "#9092A3", fontWeight: 500, fontSize: { xs: "16px", md: "20px" }, mb: { xs: '1em', md: '6em' } }}>
                 My executives could learn it so quickly and we implemented
                 literally in a couple of days. I am impressed with time-saving
                 features embedded in the software like advanced reconciliation
                 of 2A data with invoices.
               </Typography>
-              <Button endIcon={<ArrowForwardIosIcon/>}>Explore Products for large enterprises</Button>
+              <Button endIcon={<ArrowForwardIosIcon />}>Explore Products for large enterprises</Button>
             </CardContent>
           </Card>
         </div>
         <div>
-          <Card sx={{ width: 600, height: 450, margin: "1em" }}>
-          <CardContent>
-              <Typography sx={{color:'#314259',fontSize:'2em',fontWeight:'700',mb:'1em'}}>
-                over 
-                <span style={{color:'#1678FB'}}> 5million+ </span>
-                tax payers have filed with us 
+          <Card sx={{ width: { xs: '100%', md: 600 }, height: { xs: 'auto', md: 450 }, margin: "1em" }}>
+            <CardContent>
+              <Typography sx={{ color: '#314259', fontSize: { xs: '1.5em', md: '2em' }, fontWeight: '700', mb: '1em' }}>
+                over
+                <span style={{ color: '#1678FB' }}> 5 million+ </span>
+                tax payers have filed with us
               </Typography>
-              <Typography sx={{ color: "#9092A3", fontWeight: 500, fontSize: "20px",mb:'6em' }}>
+              <Typography sx={{ color: "#9092A3", fontWeight: 500, fontSize: { xs: "16px", md: "20px" }, mb: { xs: '1em', md: '6em' } }}>
                 My executives could learn it so quickly and we implemented
                 literally in a couple of days. I am impressed with time-saving
                 features embedded in the software like advanced reconciliation
                 of 2A data with invoices.
               </Typography>
-              <Button endIcon={<ArrowForwardIosIcon/>}>Fil ITR yourself or take our experts assistance</Button>
+              <Button endIcon={<ArrowForwardIosIcon />}>File ITR yourself or take our expert assistance</Button>
             </CardContent>
           </Card>
         </div>

@@ -17,9 +17,9 @@ function Main5() {
           <img
             alt="allproductsrhs"
             width="560"
-            height="500"
+            height="370.1"
             loading="lazy"
-            src="https://assets1.cleartax-cdn.com/cleartax/images/1607343426_allproductsrhs.png"
+            src="https://assets1.cleartax-cdn.com/cleartax/images/1607343426_allproductsrhs.png "
           />
         </div>
       </div>
