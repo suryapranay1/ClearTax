@@ -34,10 +34,10 @@ const Designed = () => {
             textAlign: { xs: "center", sm: "left" }
           }}
         >
-          With our solutions, you don’t have to worry <br></br>about complying with the
-          latest regulations.<br></br> 60+ in-house tax experts, co-build and test<br></br> every
-          product feature. Over 60,000 tax experts<br></br> give us constant feedback which
-          helps us stay<br></br> on top of every new tax clause.
+          With our solutions, you don’t have to worry <br />about complying with the
+          latest regulations.<br /> 60+ in-house tax experts, co-build and test<br /> every
+          product feature. Over 60,000 tax experts<br /> give us constant feedback which
+          helps us stay<br /> on top of every new tax clause.
         </Typography>
       </div>
     </div>
