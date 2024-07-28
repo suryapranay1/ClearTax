@@ -68,7 +68,7 @@ export default function TabsIconWithText() {
           <div className="panelSection panelSection1">
             <div className="clearInvoice">
               <div className="img1logo">
-                <img src="https://assets1.cleartax-cdn.com/cleartax/images/1606372771_einvoicing3.png"></img>
+                <img src="https://assets1.cleartax-cdn.com/cleartax/images/1606372771_einvoicing3.png" alt="wee"></img>
               </div>
               <div className="cleargst">
                 <Typography
@@ -85,7 +85,7 @@ export default function TabsIconWithText() {
             </div>
             <div className="clearGst">
               <div className="img1logo">
-                <img src='https://assets1.cleartax-cdn.com/cleartax/images/1603967824_ic_clear_gst.svg'></img>
+                <img src='https://assets1.cleartax-cdn.com/cleartax/images/1603967824_ic_clear_gst.svg' alt="wee"></img>
               </div>
               <div>
               <Typography
@@ -107,7 +107,7 @@ export default function TabsIconWithText() {
             
             <div className="Cleare-Invoicing">
             <div className="img1logo">
-              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1603967983_ic_ewayb.svg"></img>
+              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1603967983_ic_ewayb.svg" alt="wee"></img>
             </div>
             <div>
             <Typography
@@ -125,7 +125,7 @@ export default function TabsIconWithText() {
             </div>
             <div className="ClearMaxITC">
               <div className="img1logo">
-                <img src="https://assets1.cleartax-cdn.com/cleartax/images/1623152598_taxsavings.png"></img>
+                <img src="https://assets1.cleartax-cdn.com/cleartax/images/1623152598_taxsavings.png" alt="wee"></img>
               </div>
               <div>
               <Typography
@@ -147,7 +147,7 @@ export default function TabsIconWithText() {
           <div className="panelSection panelSection3">
             <div className="clearggst">
               <div className="imglogo1">
-<img src="https://assets1.cleartax-cdn.com/cleartax/images/1603967824_ic_clear_gst.svg"></img>
+<img src="https://assets1.cleartax-cdn.com/cleartax/images/1603967824_ic_clear_gst.svg" alt="wee"></img>
               </div>
               <div>
               <Typography
@@ -165,7 +165,7 @@ export default function TabsIconWithText() {
             </div>
             <div className="cleartaxxloud">
               <div className="imglogo1">
-<img src="https://assets1.cleartax-cdn.com/cleartax/images/1606218204_cleartds.svg"></img>
+<img src="https://assets1.cleartax-cdn.com/cleartax/images/1606218204_cleartds.svg" alt="wee"></img>
               </div>
               <div>
               <Typography
@@ -185,7 +185,7 @@ export default function TabsIconWithText() {
           <div className="panelSection panelSection4">
             <div className="Clearetds">
               <div className="imglogo1">
-<img src="https://assets1.cleartax-cdn.com/cleartax/images/1614344289_clearproapp.svg"></img>
+<img src="https://assets1.cleartax-cdn.com/cleartax/images/1614344289_clearproapp.svg" alt="wee"></img>
               </div>
               <div>
               <Typography
@@ -203,7 +203,7 @@ export default function TabsIconWithText() {
             </div>
             <div className="Clearproapp">
               <div className="imglogo1">
-<img src="https://assets1.cleartax-cdn.com/cleartax/images/1603968183_ic_taxcloud.svg"></img>
+<img src="https://assets1.cleartax-cdn.com/cleartax/images/1603968183_ic_taxcloud.svg" alt="wee"></img>
               </div>
               <div>
               <Typography
@@ -224,7 +224,7 @@ export default function TabsIconWithText() {
         <TabPanel value={2}>
           <div className="panelSection panelSection5">
             <div className="clearGst">
-              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1603967824_ic_clear_gst.svg"></img>
+              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1603967824_ic_clear_gst.svg" alt="wee"></img>
               <div>
               <Typography
                 sx={{ color: "#314259", fontWeight: 700, fontSize: "24px",ml:2 }}
@@ -240,7 +240,7 @@ export default function TabsIconWithText() {
               
             </div>
             <div className="clearone">
-              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1618557796_clearone.svg"></img>
+              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1618557796_clearone.svg" alt="wee"></img>
               <div>
               <Typography
                 sx={{ color: "#314259", fontWeight: 700, fontSize: "24px",ml:2 }}
@@ -260,7 +260,7 @@ export default function TabsIconWithText() {
         <TabPanel value={3}>
           <div className="panelSection panelSection6">
             <div className="FileITR">
-              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1603968068_ic_itr.svg"></img>
+              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1603968068_ic_itr.svg" alt="wee"></img>
               <div>
               <Typography
                 sx={{ color: "#314259", fontWeight: 700, fontSize: "24px",ml:2 }}
@@ -276,7 +276,7 @@ export default function TabsIconWithText() {
               
             </div>
             <div className="clearInvest">
-              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1606217655_clearinvest.svg"></img>
+              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1606217655_clearinvest.svg" alt="wee"></img>
               <div> <Typography
                 sx={{ color: "#314259", fontWeight: 700, fontSize: "24px",ml:2 }}
               >
@@ -292,7 +292,7 @@ export default function TabsIconWithText() {
           </div>
           <div className="panelSection panelSection7">
             <div className="ClearServices">
-              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1606217684_clearservices.svg"></img>
+              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1606217684_clearservices.svg" alt="wee"></img>
               <div> <Typography
                 sx={{ color: "#314259", fontWeight: 700, fontSize: "24px",ml:2 }}
               >
@@ -306,7 +306,7 @@ export default function TabsIconWithText() {
              
             </div>
             <div className="Black">
-              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1603967633_ic_black_app.svg">
+              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1603967633_ic_black_app.svg" alt="wee">
 
               </img>
               <div>

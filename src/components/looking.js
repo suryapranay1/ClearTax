@@ -56,7 +56,7 @@ const Looking = () => {
           <div className="divtypoimg">
 
             <div className="divimg">
-              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1605873415_taxreturnfilled.svg" style={{marginLeft:'-1em'}}></img>
+              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1605873415_taxreturnfilled.svg " style={{marginLeft:'-1em'}} alt="wwew"></img>
             </div>
             <div className="divtypo">
             <Typography
@@ -81,7 +81,7 @@ const Looking = () => {
           </div>
           <div className="divtypoimg">
           <div className="divimg">
-              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1651557178_group17737.svg"></img>
+              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1651557178_group17737.svg" alt="wee"></img>
             </div>
             <div className="divtypo">
             <Typography
@@ -106,7 +106,7 @@ const Looking = () => {
           </div>
           <div className="divtypoimg">
           <div className="divimg">
-              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1651557311_group17732.svg"></img>
+              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1651557311_group17732.svg" alt="wee"></img>
             </div>
             <div className="divtypo">
             <Typography
@@ -146,7 +146,7 @@ const Looking = () => {
           </div>
           <div className="divtypoimg">
           <div className="divimg">
-              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1651559294_group17652.svg"></img>
+              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1651559294_group17652.svg" alt="wee"></img>
             </div>
             <div className="divtypo">
             <Typography
@@ -170,7 +170,7 @@ const Looking = () => {
           </div>
           <div className="divtypoimg">
           <div className="divimg">
-              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1651559329_incometaxreturns.svg"></img>
+              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1651559329_incometaxreturns.svg" alt="wee"></img>
             </div>
             <div className="divtypo">
             <Typography
@@ -195,7 +195,7 @@ const Looking = () => {
           </div>
           <div className="divtypoimg">
           <div className="divimg">
-              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1651559337_group18140924.svg"></img>
+              <img src="https://assets1.cleartax-cdn.com/cleartax/images/1651559337_group18140924.svg" alt="wee"></img>
             </div>
             <div className="divtypo">
             <Typography

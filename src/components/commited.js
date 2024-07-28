@@ -27,7 +27,7 @@ const Commited = () => {
           width="500"
           height="200"
           loading="lazy"
-          src="https://assets1.cleartax-cdn.com/cleartax/images/1620036013_security_certificates.png"
+          src="https://assets1.cleartax-cdn.com/cleartax/images/1620036013_security_certificates.png" 
         />
       </div>
     </div>
